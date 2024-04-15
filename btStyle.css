@@ -1,0 +1,67 @@
+/* Set background color */
+body {
+    background-color: #f0fff0; /* Light green */
+    padding-left: 170px; /* Add padding to the left to accommodate the nav bar width */
+}
+
+/* Set text color */
+body, h1, h2, h3, p {
+    color: #008000; /* Dark green */
+    padding-left:30px 0;
+    font-family:helvetica;
+}
+
+/* Set link color */
+a {
+    color: #006400; /* Dark green */
+}
+
+/* Set navigation bar styles */
+/* Add your existing navigation bar styles here */
+nav {
+    background-color: forestgreen; /* Example background color */
+    color: black;          /* Example text color */
+    padding: 15px 0;       /* Add some padding */
+    text-align: center;    /* Center the links */
+    position: fixed;       /* Make the nav bar fixed */
+    top: 0;                /* Align to the top */
+    left: 0;               /* Align to the left */
+    bottom: 0;             /* Extend to the bottom */
+    width: 150px;          /* Set width for vertical menu */
+}
+
+nav ul {
+    list-style: none;   /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    /* Change display property to block for vertical menu */
+    display: block;
+    margin: 10px 0;     /* Add space between links */
+}
+
+nav a {
+    text-decoration: none;  /* Remove default underline */
+    color: #fff; /* Darker text color for buttons */
+}
+
+/* Set button styles */
+button {
+    background-color: #008000; /* Dark green */
+    color: #333; /* Darker text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Set hover effect on buttons */
+button:hover {
+    background-color: #006400; /* Slightly darker green on hover */
+
+}
+
+nav a:hover {
+    background-color: #006400; /* Slightly darker green on hover */
+}
